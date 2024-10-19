@@ -1,0 +1,1135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="158_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\158_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="110_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\110_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="101_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\101_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="91_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\91_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="157_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\157_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="83_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\83_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_134" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_134.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_125.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_116" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_116.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_97" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_97.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="126_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\126_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_150.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="60_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\60_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="159_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\159_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="140_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\140_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\10_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="66_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\66_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_158" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_158.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="128_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\128_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="122_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\122_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="72_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\72_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="138_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\138_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_140.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="136_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\136_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_93.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_161.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="125_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\125_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="75_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\75_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="139_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\139_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="69_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\69_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\4_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="143_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\143_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\13_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\20_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_110.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="45_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\45_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="150_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\150_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="64_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\64_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="137_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\137_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="67_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\67_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="100_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\100_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_66.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_77" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_77.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_168" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_168.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_152" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_152.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="147_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\147_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="62_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\62_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\5_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="142_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\142_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="81_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\81_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\12_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="154_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\154_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="82_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\82_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="17_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\17_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="27_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\27_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_156" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_156.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_136.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_147" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_147.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_127" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_127.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_114" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_114.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_95.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_106" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_106.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_119" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_119.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_162" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_162.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_103.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="120_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\120_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\19_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="164_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\164_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="156_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\156_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="56_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\56_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="25_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\25_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="115_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\115_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="23_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\23_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="155_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\155_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="40_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\40_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="127_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\127_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_124" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_124.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_117" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_117.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="89_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\89_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_109" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_109.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="97_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\97_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="65_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\65_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="117_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\117_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\21_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="47_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\47_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="38_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\38_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="102_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\102_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="132_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\132_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="123_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\123_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="99_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\99_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="162_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\162_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="85_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\85_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="80_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\80_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="129_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\129_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="79_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\79_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="70_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\70_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\8_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="121_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\121_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_92" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_92.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="68_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\68_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_68.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="77_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\77_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="78_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\78_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="113_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\113_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="43_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\43_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="141_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\141_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\11_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="153_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\153_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="124_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\124_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\9_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="29_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\29_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="32_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\32_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_167" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_167.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_154" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_154.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_135.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_145" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_145.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_165" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_165.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_169" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_169.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_108.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\15_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="55_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\55_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="119_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\119_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_88.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="49_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\49_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_137.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_126" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_126.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_115.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_85.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_94" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_94.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_107.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="114_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\114_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="44_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\44_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_131.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="54_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\54_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="22_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\22_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="57_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\57_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="53_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\53_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\2_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="108_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\108_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\34_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_113.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="107_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\107_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="116_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\116_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="46_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\46_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="90_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\90_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="28_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\28_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="39_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\39_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_157" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_157.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_112.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="87_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\87_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="133_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\133_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="63_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\63_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_164" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_164.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="149_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\149_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_166" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_166.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\1_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="73_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\73_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="96_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\96_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_69.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="131_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\131_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_78" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_78.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\61_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="111_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\111_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="41_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\41_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="112_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\112_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="163_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\163_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="42_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\42_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="33_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\33_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="151_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\151_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="88_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\88_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="152_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\152_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\3_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="71_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\71_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="98_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\98_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="148_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\148_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\18_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="30_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\30_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_79.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="161_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\161_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="31_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\31_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_149" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_149.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_155" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_155.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_139.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_143.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="59_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\59_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_105" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_105.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="103_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\103_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="93_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\93_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_132.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="118_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\118_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="48_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\48_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="58_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\58_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_89" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_89.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_98.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="104_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\104_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="37_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\37_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_104" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_104.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_129.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="26_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\26_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="92_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\92_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="166_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\166_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\36_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="165_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\165_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\35_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="76_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\76_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="74_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\74_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_170" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_170.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="24_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\24_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_133.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="134_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\134_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="52_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\52_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\6_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_163" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_163.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_146.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="160_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\160_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="84_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\84_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="135_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\135_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="50_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\50_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="130_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\130_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="94_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\94_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="144_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\144_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\14_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="51_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\51_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="95_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\95_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_153" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_153.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\7_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_130.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="105_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\105_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="86_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\86_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="109_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\109_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\145_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="146_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\146_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\16_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_138.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_159" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_159.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_148" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_148.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_87.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_118.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset_102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Hinata\Asset_102.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="106_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\106_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\NarutoUzumakiBattle\0_Asset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

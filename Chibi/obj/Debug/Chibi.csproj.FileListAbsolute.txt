@@ -1,0 +1,8 @@
+D:\C#\Chibi\Chibi\bin\Debug\Chibi.exe
+D:\C#\Chibi\Chibi\bin\Debug\Chibi.pdb
+D:\C#\Chibi\Chibi\obj\Debug\Chibi.Form1.resources
+D:\C#\Chibi\Chibi\obj\Debug\Chibi.Properties.Resources.resources
+D:\C#\Chibi\Chibi\obj\Debug\Chibi.csproj.GenerateResource.cache
+D:\C#\Chibi\Chibi\obj\Debug\Chibi.csproj.CoreCompileInputs.cache
+D:\C#\Chibi\Chibi\obj\Debug\Chibi.exe
+D:\C#\Chibi\Chibi\obj\Debug\Chibi.pdb

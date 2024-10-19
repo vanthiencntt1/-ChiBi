@@ -1,0 +1,1096 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3ED9A1F8-B211-4D11-A24E-857D2712FB7B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Chibi</RootNamespace>
+    <AssemblyName>Chibi</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\1_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\2_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\3_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\4_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\5_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\6_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\7_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\8_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\9_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\10_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\11_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\12_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\13_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\14_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\15_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\16_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\17_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\18_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\19_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\20_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\21_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\22_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\23_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\24_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\25_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\26_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\27_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\28_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\29_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\30_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\31_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\32_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\33_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\34_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\35_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\36_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\37_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\38_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\39_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\40_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\41_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\42_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\43_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\44_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\45_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\46_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\47_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\48_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\49_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\50_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\51_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\52_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\53_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\54_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\55_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\56_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\57_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\58_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\59_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\60_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\61_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\62_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\63_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\64_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\65_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\66_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\67_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\68_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\69_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\70_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\71_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\72_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\73_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\74_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\75_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\76_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\77_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\78_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\79_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\80_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\81_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\82_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\83_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\84_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\85_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\86_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\87_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\88_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\89_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\90_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\91_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\92_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\93_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\94_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\95_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\96_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\97_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\98_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\99_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\100_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\101_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\102_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\103_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\104_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\105_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\106_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\107_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\108_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\109_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\110_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\111_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\112_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\113_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\114_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\115_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\116_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\117_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\118_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\119_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\120_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\121_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\122_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\123_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\124_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\125_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\126_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\127_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\128_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\129_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\130_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\131_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\132_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\133_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\134_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\135_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\136_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\137_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\138_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\139_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\140_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\141_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\142_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\143_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\144_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\145_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\146_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\147_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\148_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\149_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\150_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\151_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\152_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\153_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\154_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\155_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\156_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\157_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\158_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\159_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\160_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\161_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\162_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\163_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\164_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\165_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\166_Asset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_63.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_67.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_68.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_69.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_74.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_76.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_77.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_78.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_79.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_82.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_83.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_84.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_85.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_86.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_87.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_88.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_89.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_92.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_93.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_94.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_95.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_97.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_98.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_105.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_107.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_108.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_109.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_110.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_114.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_115.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_116.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_117.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_118.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_119.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_124.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_126.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_127.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_129.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_130.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_136.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_137.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_138.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_139.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_140.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_142.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_143.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_145.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_146.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_147.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_148.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_149.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_151.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_152.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_153.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_154.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_155.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_156.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_157.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_158.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_159.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_160.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_163.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_164.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_165.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_166.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_167.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_168.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_169.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hinata\Asset_170.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NarutoUzumakiBattle\0_Asset.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
